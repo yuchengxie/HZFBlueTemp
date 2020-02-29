@@ -1,0 +1,54 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/temp/temp",
+			"style" : {
+				"navigationBarTitleText":"体温计"
+			}
+		},
+		{
+			"path" : "pages/blue/blue",
+			"style" : {
+				"navigationBarTitleText":"蓝牙"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "温度测试",
+		// "navigationBarBackgroundColor": "#223639",
+		"navigationBarBackgroundColor": "#67BF7F",
+		"navigationBarTextStyle":"white"
+	},
+	"tabBar":{
+		"fontSize":"14px",
+		"selectedColor":"#1296db",
+		"color":"#8a8a8a",
+		"list":[
+			// {
+			// 	"pagePath":"pages/temp/temp",
+			// 	"text":"温度",
+			// 	"iconPath":"static/temp.png",
+			// 	"selectedIconPath":"static/temp_select.png"
+			// },
+			// {
+			// 	"pagePath":"pages/record/record",
+			// 	"text":"档案",
+			// 	"iconPath":"static/record.png",
+			// 	"selectedIconPath":"static/record_select.png"
+			// },
+			// {
+			// 	"pagePath":"pages/setting/setting",
+			// 	"text":"设置",
+			// 	"iconPath":"static/setting.png",
+			// 	"selectedIconPath":"static/setting_select.png"
+			// },
+			// {
+			// 	"pagePath":"pages/share/share",
+			// 	"text":"分享",
+			// 	"iconPath":"static/share.png",
+			// 	"selectedIconPath":"static/share_select.png"
+			// }
+			
+		]
+	}
+}

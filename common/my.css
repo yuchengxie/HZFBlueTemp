@@ -1,0 +1,21 @@
+.page {
+	height: 100%;
+	width: 100%;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	/* width: 690upx; */
+	/* padding: 0 30upx; */
+	background-color: #67BF7F;
+	/* background-color: #93D1B7; */
+	/* background-image: url(../static/1.jpg); */
+}
+
+.v-temp {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* background-color: #FFB400; */
+	width: 100%;
+}
